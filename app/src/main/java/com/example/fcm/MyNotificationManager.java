@@ -45,7 +45,7 @@ public class MyNotificationManager {
                         ID_BIG_NOTIFICATION,
                         intent,
                         PendingIntent.FLAG_UPDATE_CURRENT
-                );
+                );//m
         NotificationCompat.BigPictureStyle bigPictureStyle = new NotificationCompat.BigPictureStyle();
         bigPictureStyle.setBigContentTitle(title);
         bigPictureStyle.setSummaryText(Html.fromHtml(message).toString());
